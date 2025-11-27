@@ -40,7 +40,7 @@ int main(){
     return 0;
 }
 ```
-Output:
+# Output:
 <img width="699" height="333" alt="image" src="https://github.com/user-attachments/assets/c209313b-e18c-4e12-93d8-49d3b2bcec9d" />
 
 # Result:
