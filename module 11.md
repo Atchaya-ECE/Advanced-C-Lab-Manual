@@ -10,8 +10,29 @@ To write a C program to create a function to find the greatest number
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 # Program:
-
+```
+#include<stdio.h>
+struct number{
+    int n1;
+    int n2; 
+    int n3;
+}n;
+int main(){
+    scanf("%d%d%d",&n.n1,&n.n2,&n.n3);
+    if (n.n1>n.n2 && n.n1>n.n3){
+        printf("%d",n.n1);
+    }
+    else if(n.n2>n.n3){
+        printf("%d",n.n2);
+    }
+    else{
+        printf("%d",n.n3);
+    }
+    return 0;
+}
+```
 # Output:
+<img width="1146" height="261" alt="image" src="https://github.com/user-attachments/assets/5f35f739-d1ac-47ff-8d87-06291961a1f0" />
 
 # Result:
 Thus, the program  that create a function to find the greatest number is verified successfully.
